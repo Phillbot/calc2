@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="calc" id="calc">
+    <!-- need fix out of display -->
+    <div class="calc__display">
+      <input disabled class="calc__display__output" value="0"></input>
+    </div>
+
+    <button class="clear" value="C">C</button>
+
+    <div class="calc__keyboard">
+      <button class="calc__btn" value="1">1</button>
+      <button class="calc__btn" value="2">2</button>
+      <button class="calc__btn" value="3">3</button>
+      <button class="calc__btn" value="4">4</button>
+      <button class="calc__btn" value="5">5</button>
+      <button class="calc__btn" value="6">6</button>
+      <button class="calc__btn" value="7">7</button>
+      <button class="calc__btn" value="8">8</button>
+      <button class="calc__btn" value="9">9</button>
+      <button class="calc__btn" value="+">+</button>
+      <button class="calc__btn" value="0">0</button>
+      <button class="calc__btn" value="-">-</button>
+      <button class="calc__btn" value="=">=</button>
+    </div>
+  </div>
+
+  <div class="history"></div>
+
+  <script src="./main.js"></script>
+  <script src="./keyboard.js"></script>
+  <script src="./move.js"></script>
+</body>
+</html>
